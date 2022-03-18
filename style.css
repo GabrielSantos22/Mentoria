@@ -12,13 +12,13 @@ body {
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
-    align-items: initial;
     justify-content: space-around;
     padding: 50px;
     background-color: rgb(0, 144, 140);
     font-weight: bold;
-    
+    font-style: italic;
+    font-size: larger;
+
 }
 
 .cabecalho-imagem {
