@@ -3,45 +3,89 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-
-body {
+  }
+  
+  body {
     font-size: 100%;
-    background: none;
-}
-
-.cabecalho {
+    background-color: rgba(36, 36, 42, 0.904);
+  }
+  
+  .cabecalho {
     display: flex;
+    flex-direction: row;
+    align-items: initial;
     justify-content: space-around;
     padding: 50px;
     background-color: rgb(0, 144, 140);
     font-weight: bold;
-    font-style: italic;
+  }
+  
+  .cabecalho h1 {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: 0.7s ease-in-out;
+  }
+  
+  .cabecalho h1:hover {
+    color: rgb(15, 223, 216);
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.363);
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: right;
     font-size: larger;
-
-}
-
-.cabecalho-imagem {
-    
-}
-
-.cabecalho-menu {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 10px;
+    width: auto;
+  }
+  
+  .usuario {
+    margin-right: 10px;
+  }
+  
+  #usuario {
+    width: 110px;
+    border-radius: 3px;
+  }
+  
+  .senha {
+    margin-right: 10px;
+  }
+  
+  #password {
+    width: 110px;
+    border-radius: 3px;
+  }
+  
+  .button {
+    width: 4rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.578);
+    border-radius: 5px;
+    border-top: none;
+    text-shadow: 2px 2px 5px slategrey;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  .cabecalho-menu {
     display: flex;
     gap: 50px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
-}
-
-.conteudo {
+  }
+  
+  .conteudo {
     margin-bottom: 48px;
-    
-}
-
-
-.conteudo-principal-imagem {
+  }
+  
+  .conteudo-principal-imagem {
     width: 100%;
-    
-    
-}
+  }
+  
